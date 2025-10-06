@@ -9,47 +9,17 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <header>
-        <h1>John Doe - Developer Portfolio</h1>
-        <nav>
-            <ul>
-                <li><a href="#about">About Me</a></li>
-                <li><a href="#projects">Projects</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
-        </nav>
-    </header>
-    <section id="about">
-        <h2>About Me</h2>
-        <p>Hello! I'm Chiron, a student and developer with experience in various languages, AI, linux and more!. I love creating innovative solutions to complex problems and exploring the world of FOSS.</p>
-    </section>
-    <section id="projects">
-        <h2>Projects</h2>
-        <div class="project">
-            <h3>3DBind</h3>
-            <p>A device that minimises the need to use keybindings in 3D CAD software</p>
-            <a href="https://github.com/Chiron8/3DBind" target="_blank">View on GitHub</a>
+    <div class="container">
+        <h1 class="heading" data-target-resolver></h1>
+    </div>
+    <!-- From Uiverse.io by adamgiebl --> 
+    <div class="card" id="card">
+        <div class="card__content">
+            <h2 class="card_title">3DBind</h2>
+            <p class="card_desc">A device to minimise the need to use keybindings in 3D CAD software</p>
+            <img class="card_image" src="img/IMG_2321.png" data-gif="img/3DBind2.gif" alt="3DBind Device">
         </div>
-        <div class="project">
-            <h3>writedoc</h3>
-            <p>A fast way of creating and editing notes using neovim without defining a file path</p>
-            <a href="https://github.com/Chiron8/writedoc" target="_blank">View on GitHub</a>
-        </div>
-        <div class="project">
-            <h3>Portfolio Website</h3>
-            <p>This very website showcasing my work and skills.</p>
-        </div>
-    </section>
-    <section id="contact">
-        <h2>Contact</h2>
-        <p>If you'd like to get in touch, feel free to reach out via email or</p>
-        <ul>
-            <li>Email: <a href="mailto:chiron.dev8@gmail.com" target="_blank">Send Email</a></li>
-            <li>GitHub: <a href="https://github.com/Chiron8" target="_blank">github.com/Chiron8</a></li>
-        </ul>
-    </section>
-    <footer>
-        <p>&copy; 2025 Chiron Horwood | MIT License.</p>
-    </footer>
+    </div>
+    <script src="script.js"></script>
 </body>
 </html>
