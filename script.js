@@ -1,15 +1,3 @@
-// IMG HOVER LISTENER
-const cardImage = document.querySelector('.card_image');
-
-cardImage.addEventListener('mouseenter', () => {
-    cardImage.src = cardImage.dataset.gif; // switch to GIF
-});
-
-cardImage.addEventListener('mouseleave', () => {
-    cardImage.src = 'img/IMG_2321.png'; // switch back to static image
-});
-
-
 
 // TEXT THINGY AND SCROLL TO CARD
 const resolver = {
