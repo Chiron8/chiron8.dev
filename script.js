@@ -1,3 +1,5 @@
+//hello please update
+
 
 // TEXT THINGY AND SCROLL TO CARD
 const resolver = {
@@ -91,7 +93,7 @@ function callback() {
     if (counter >= strings.length) {
         counter = 0;
     }
-    document.getElementById("3db").scrollIntoView({
+    document.getElementById("Intro").scrollIntoView({
         behavior: "smooth"
     });
   }, 500);
