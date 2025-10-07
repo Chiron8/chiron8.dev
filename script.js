@@ -103,7 +103,7 @@ function callback() {
     if (counter >= strings.length) {
         counter = 0;
     }
-    document.getElementById("card").scrollIntoView({
+    document.getElementById("3db").scrollIntoView({
         behavior: "smooth"
     });
   }, 500);
