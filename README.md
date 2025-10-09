@@ -76,7 +76,7 @@ A device designed to minimize the need for keybindings in 3D CAD software, simpl
 ## 🎯 Key Features Explained
 
 ### Text Animation
-The landing page features a custom-built text resolver that creates a "hacker-style" character animation effect, cycling through random characters before revealing the final text: "Welcome to Chiron8.dev!"
+The landing page features a custom-built text resolver that creates a "matrix-style" character animation effect, cycling through random characters before revealing the final text: "Welcome to Chiron8.dev!"
 
 ### Interactive Images
 Project images transform into animated GIFs on hover, providing dynamic demonstrations of the projects without requiring user clicks.
