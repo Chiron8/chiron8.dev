@@ -75,12 +75,11 @@ body {
 }
 
 .hover-img {
-  display: none;
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-110%, -35%);
-  width: 40%; /* adjust to taste */
+  width: 40%; 
   opacity: 0;
   transition: opacity 1s ease;
 }
@@ -93,6 +92,11 @@ body {
 .code-editor:hover {
     padding-bottom: 600px;
 }
+
+.code-editor:not(:hover) .hover-img {
+  transition: opacity 0s ease 0s, visibility 0s linear 0s;
+}
+
 
 .header {
   display: flex;
