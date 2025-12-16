@@ -2,9 +2,9 @@ name: 🚀 Deploy to chiron8.dev
 
 on:
   workflow_dispatch: 
-    push:
-      branches:
-        - master
+  push:
+  branches:
+    - master
 
 jobs:
   deploy:
