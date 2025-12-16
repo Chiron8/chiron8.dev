@@ -3,8 +3,8 @@ name: 🚀 Deploy to chiron8.dev
 on:
   workflow_dispatch: 
   push:
-  branches:
-    - master
+      branches:
+          - master
 
 jobs:
   deploy:
