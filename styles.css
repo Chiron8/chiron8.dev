@@ -174,7 +174,7 @@ button.learn-more .circle {
  margin: 0;
  width: 3rem;
  height: 3rem;
- background: #9019ff;
+ background: linear-gradient(193deg, #2a19a8 0%, #a149d1 90%, #cf49d1 100%);
  border-radius: 1.625rem;
 }
 
