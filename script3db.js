@@ -1,7 +1,4 @@
-//hello please update
-
-
-// TEXT THINGY AND SCROLL TO CARD
+// TEXT THINGY
 const resolver = {
   resolve: function resolve(options, callback) {
     // The string to resolve
