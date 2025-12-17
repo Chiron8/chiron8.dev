@@ -253,15 +253,49 @@ button:hover .button-text {
 .hero-image {
     align-items: right;
     padding-right: 0;
-    width: 400px;           
+    width: 20rem;           
     height: auto;             
     margin-left: auto;
+    margin-top: -10rem;
 }
 
 .heading-project {
-  margin-top: 10px;
   color: #eee;
-  font-size: 10rem;
-  font-weight: 300;
+  font-size: 14rem;
+  font-weight:300;
   text-transform: uppercase;
+  margin-top:-20rem;
+}
+
+.Intro-project {
+    padding-top: 100px;
+    color: #eee;
+    font-size: 3rem;
+    font-weight: 150;
+    text-transform: uppercase;
+    text-align: left;
+    align-items: left;
+    justify-content: center;
+    padding-left: 100px;
+    padding-right: 100px;
+    margin-top: -50rem;
+}
+
+.desc-project {
+    display: flex;
+    color: #eee;
+    font-size: 3rem;
+    font-weight: 150;
+    text-transform: uppercase;
+    text-align: left;
+    align-items: left;
+    justify-content: center;
+    padding-left: 50px;
+    padding-right: 50px;
+    background-color: #1d1e22;
+    height: 100%;
+    width: 80%;
+    margin: 2rem;
+    box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.5);
+    border-radius: 8px;
 }
