@@ -21,7 +21,7 @@ jobs:
           server: ftpupload.net         
           username: ${{ secrets.FTP_USERNAME }}
           password: ${{ secrets.FTP_PASSWORD }}
-          server-dir: /htdocs/
+          server-dir: /chiron8.dev/htdocs/
           timeout: 86400000
           log-level: standard
 
