@@ -93,9 +93,6 @@ function callback() {
     if (counter >= strings.length) {
         counter = 0;
     }
-    document.getElementById("Intro").scrollIntoView({
-        behavior: "smooth"
-    });
   }, 500);
 }
 

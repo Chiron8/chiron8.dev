@@ -236,3 +236,32 @@ button:hover .button-text {
  color: #FFF;
 }
 
+.container-project {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  padding-left: 5rem;
+  margin-bottom: 10%;
+  padding-right: 0;
+}
+
+.hero {
+    display: flex;
+}
+.hero-image {
+    align-items: right;
+    padding-right: 0;
+    width: 400px;           
+    height: auto;             
+    margin-left: auto;
+}
+
+.heading-project {
+  margin-top: 10px;
+  color: #eee;
+  font-size: 10rem;
+  font-weight: 300;
+  text-transform: uppercase;
+}
