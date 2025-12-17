@@ -94,11 +94,3 @@ function callback() {
 }
 
 resolver.resolve(options, callback);
-
-fetch('codeblocks.html')
-  .then(response => response.text())
-  .then(html => {
-    document.getElementById('three-db-container').innerHTML = html;
-  })
-  .catch(err => console.error('Failed to load 3db.html:', err));
-
