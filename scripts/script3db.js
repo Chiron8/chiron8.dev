@@ -65,7 +65,7 @@ const resolver = {
   } 
 }
 
-const strings = ["Welcome to Chiron8.dev!"];
+const strings = ["3D Bind"];
 
 
 let counter = 0;
@@ -101,7 +101,7 @@ function callback() {
 
 resolver.resolve(options, callback);
 
-fetch('codeblocks.html')
+fetch('/pages/codeblocks.html')
   .then(response => response.text())
   .then(html => {
     document.getElementById('three-db-container').innerHTML = html;

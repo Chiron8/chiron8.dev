@@ -1,4 +1,7 @@
-// TEXT THINGY
+//hello please update
+
+
+// TEXT THINGY AND SCROLL TO CARD
 const resolver = {
   resolve: function resolve(options, callback) {
     // The string to resolve
@@ -62,7 +65,7 @@ const resolver = {
   } 
 }
 
-const strings = ["3D Bind"];
+const strings = ["Welcome to Chiron8.dev!"];
 
 
 let counter = 0;
@@ -75,7 +78,7 @@ const options = {
   // Number of random characters to show
   iterations: 10,
   // Random characters to pick from
-  characters: ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z'],
+  characters: ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'x', 'y', 'x', '#', '%', '&', '-', '+', '?', '/', '\\', '='],
   // String to resolve
   resolveString: strings[counter],
   // The element
@@ -90,7 +93,18 @@ function callback() {
     if (counter >= strings.length) {
         counter = 0;
     }
+    document.getElementById("Intro").scrollIntoView({
+        behavior: "smooth"
+    });
   }, 500);
 }
 
 resolver.resolve(options, callback);
+
+fetch('/pages/codeblocks.html')
+  .then(response => response.text())
+  .then(html => {
+    document.getElementById('three-db-container').innerHTML = html;
+  })
+  .catch(err => console.error('Failed to load 3db.html:', err));
+
