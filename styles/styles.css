@@ -261,7 +261,7 @@ button:hover .button-text {
 
 .heading-project {
   color: #eee;
-  font-size: 14rem;
+  font-size: 1000%;
   font-weight:300;
   text-transform: uppercase;
   margin-top:-20rem;
@@ -294,7 +294,7 @@ button:hover .button-text {
     padding-right: 50px;
     background-color: #1d1e22;
     height: 100%;
-    width: 80%;
+    width: 75%;
     margin: 2rem;
     box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.5);
     border-radius: 8px;
